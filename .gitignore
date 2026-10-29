@@ -1,0 +1,35 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# Next.js
+/.next/
+/out/
+/build
+
+# Environment — copy .env.local.example to .env.local and fill in values
+.env*.local
+.env.local
+.env
+!.env.example
+!.env.local.example
+
+# Vercel
+.vercel
+
+# Misc
+.DS_Store
+*.pem
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs
+logs/
+*.log
+
+# Supabase CLI temp files
+supabase/.temp/
+
+# OS
+Thumbs.db

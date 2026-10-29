@@ -1,0 +1,15 @@
+{
+  "git": {
+    "deploymentEnabled": {
+      "workout-only": true,
+      "main": false,
+      "mindbody-integration": false,
+      "shared": false
+    }
+  },
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "outputDirectory": ".next"
+}

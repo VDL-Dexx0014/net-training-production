@@ -1,0 +1,28 @@
+# SESSION DATA IMPORT TEMPLATE - MULTIPLE SESSIONS
+# Instructions:
+# 1. Replace YOUR_CLIENT_UUID_HERE with the client's UUID (from client profile page)
+# 2. Replace YOUR_LOCATION_ID_HERE with the gym location ID (from location settings)
+# 3. Enter Program Name (optional - leave blank if not using a program)
+# 4. In each data row, specify the trainer UUID for that session
+# 5. Multiple sessions will be created automatically - grouped by date and trainer
+# 6. Date format: YYYY-MM-DD (e.g., 2025-01-15)
+# 7. Machine Code: Use codes from your gym (e.g., A4, B2, C1)
+# 8. Weight: In pounds (lbs)
+# 9. Time: Either seconds (e.g., 300) or mm:ss format (e.g., 5:00)
+# 10. Side: For bilateral machines, use 'left', 'right', or 'both' (leave blank for non-bilateral machines)
+# 11. Different trainers on the same date will create separate sessions
+# 12. Delete the example rows below and add your data
+
+Client UUID:YOUR_CLIENT_UUID_HERE
+Location ID:YOUR_LOCATION_ID_HERE
+Program Name:
+
+Date,Trainer UUID,Machine Code,Weight,Time,Side
+2025-01-15,YOUR_TRAINER_UUID_HERE,A4,100,5:00,left
+2025-01-15,YOUR_TRAINER_UUID_HERE,A4,95,5:00,right
+2025-01-15,YOUR_TRAINER_UUID_HERE,B2,150,6:40,
+2025-01-15,YOUR_TRAINER_UUID_HERE,C1,75,4:30,
+2025-01-17,YOUR_TRAINER_UUID_HERE,A4,105,5:15,left
+2025-01-17,YOUR_TRAINER_UUID_HERE,A4,100,5:15,right
+2025-01-17,ANOTHER_TRAINER_UUID,B2,155,7:00,
+2025-01-17,ANOTHER_TRAINER_UUID,D3,80,300,
